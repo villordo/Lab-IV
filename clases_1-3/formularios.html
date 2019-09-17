@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="baseStyle.css">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    
+    <form action="procesar.php" >
+
+        <h2>Usuario</h2>
+        <label for="email" class="asdas">Nombre:</label>
+        <input type="email" name="email" id="email" placeholder="Escriba su nombre">
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" placeholder="Escriba su contraseña">
+        <h2>Checkbox</h2>
+        <input type="checkbox" name="Hobies"/>Musica
+        <input type="checkbox" name="Hobies"/>Fulbol
+        <input type="checkbox" name="Hobies"/>Arte
+        <br>
+        <h2>Radio</h2>
+        <label for="aaa">Masculino</label>
+        <input type="radio" name="sexo" id="aaa"/>
+        <input type="radio" name="sexo"/>Mujer
+        <input type="radio" name="sexo"/>No definido
+        <h2>text</h2>
+        <input type="text" name="texto">
+        <h2>Date</h2>
+        Fecha de nacimiento:<input type="date" name="fecha">
+        <h2>File</h2>
+        <input type="file">
+        <h2>Range</h2>
+        <input type="range" name="rango">
+        <h2>Select</h2>
+        <select name="nacionalidad" id="">
+                <option value="argentima">argentima</option>
+                <option value="mexico">mexico</option>
+            </select>
+            <h2>Select Multiple</h2>
+            <select name="" multiple>
+                    <option value="argentima">argentima</option>
+                    <option value="mexico">mexico</option>
+                </select>
+            <h2>Textarea</h2>
+            <textarea name="observaciones" id="" cols="30" rows="10"></textarea>
+        <input type="hidden"> <!-- enviar informacion oculta para el usuario EJ: el id-->
+            
+        <h2>Enviar</h2>
+        <button>
+        <input type="submit">
+        </button>
+
+    </form>
+    <!--
+    <form action="">
+        <label for="nombre">Ingrese su nombre:
+       <input type="text" placeholder="Escriba su nombre" maxlength="10" id="nombre" name="nombre"> 
+        el placeholder se utiliza para los buscadores generalmente
+       -/- maxlength es el maximo de caraceteres que permitira ingresar
+    </label>-->
+    
+   
