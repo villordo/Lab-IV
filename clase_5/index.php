@@ -23,7 +23,7 @@ $person = new m_Person();
 
 
 $variable= 4=="4" ? "son iguales" : "no son iguales";
-                //IF   //TRUE          //FALSE
+            //IF   //TRUE          //FALSE
 echo '<br>'.$variable; //outputs son iguales
 
 //header("location:index3.php");
