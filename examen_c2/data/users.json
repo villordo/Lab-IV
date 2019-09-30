@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Ludmila",
+        "dni": "45678901",
+        "birthdate": "1984-04-10",
+        "email": "ludmila@utn.com",
+        "pass": "asd123"
+    },
+    {
+        "name": "Adrian",
+        "dni": "56789012",
+        "birthdate": "1983-04-13",
+        "email": "jor@utn.com",
+        "pass": "admin"
+    },
+    {
+        "name": "Carlos",
+        "dni": "324443223",
+        "birthdate": "2019-12-01",
+        "email": "carlos@asd",
+        "pass": "asdasd"
+    }
+    ,
+    {
+        "name": "Pedrin",
+        "dni": "32422323",
+        "birthdate": "2019-12-01",
+        "email": "pedrin@asd",
+        "pass": "asdasd"
+    }
+    ,
+    {
+        "name": "Turrin",
+        "dni": "32432423",
+        "birthdate": "2019-12-01",
+        "email": "turrin@asd",
+        "pass": "asdasd"
+    }
+    
+]
